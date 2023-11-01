@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img{
+    border-radius: 20%;
+}
+.col{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    color: #592c25;
+    border-radius: 20%;
+}
+.col2{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    color: #592c25;
+    border-radius: 20%;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+    border-radius: 20%;
+}
+.products{
+    color: bisque;
+    text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-size: x-large;
+border-radius: 20%;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+p{
+    font-size: 16px;
+    color: beige;
+    margin: 15px 0 20px 0;
+
+}
+.section-p1{
+    padding: 40px 80px;
+}
+
+#feature .fe-box{
+    width: 10px;
+    padding: 25px 15px; 
+}
+
+body{
+    text-align: justify;
+    background-color:#362a07    ;
+}
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 20px 40px;
+    background: #877c5d;
+    box-shadow: 0 5px 15px #362a07;
+    z-index: sticky;
+    top:0;
+    left: 0;
+
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    align-items: last baseline;
+    padding: 20px 40px;
+    background: #592c25;
+    box-shadow: 0 5px 15px #362a07;
+    z-index: sticky;
+    top:0;
+    left: 0;
+
+}
+
+
+#nav{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#logo .img{
+    width: 5px;
+    height: 5px;
+}
+
+/* changing colour when */
+#nav li a:hover,
+li a.active::after{
+    color: rgb(91, 30, 23);
+}
+
+
+
+#nav li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+#nav li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: bisque;
+}
+.first-div {
+    height: 500;
+    width: 500px;
+    background-color: rgb(48, 30, 9);
+    border-width: 3px;
+    border-color: black;
+    border-radius: 20%;
+    margin: 10px;
+    padding: 5px;
+  
+}
+.a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: bisque;
+}
+
+#hero3 .text{
+    text-align: left;
+}
+#hero3{
+    background-image: url("2.jpg");
+    background-color: transparent;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 50% right 0;
+    flex-direction: column;
+    padding: 0 60px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    color:#d4cdba;
+    font-size:xx-large;
+}
+
+#hero2{
+    background-image: url("Download premium image of Lilac tile wall texture background distorted by Nunny about mobile wallpaper, paper texture, lilac, wallpaper iphone wallpaper, and background iphone lilac 2628538.jpg");
+    background-color: transparent;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 50% right 0;
+    flex-direction: column;
+    padding: 0 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color:#d4cdba;
+    font-size:xx-large;
+}
+#hero{
+    background-image: url("Unknown-2.jpg");
+    background-color: transparent;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 50% right 0;
+    flex-direction: column;
+    padding: 0 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color:#826e39;
+    font-size:xx-large;
+}
+
+
+#hero h1{
+    color: rgb(193, 180, 140);
+}
+
+
+#hero button{
+    background-image: url(button.png);
+    background-color: transparent;
+    color: beige;
+    border: 0;
+    padding: 14px 80px 14px 55px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+
+
+.top-half {  
+
+    margin-top: auto;
+opacity: 30%;
+object-fit: cover;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+  }
+  .top-right {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+
+  #product1{
+    text-align: center;
+
+  }
+  #product1 .pro{
+    width:23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #362a07;
+  }
+  #product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+
+  }
